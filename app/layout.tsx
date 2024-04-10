@@ -28,7 +28,7 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav className="flex justify-between items-center p-8 px-24">
+        <nav className="nav-container">
           <h1 className="font-bold text-2xl">AppName</h1>
           {(await isAuthenticated()) ? (
             <div className="flex gap-3 items-center">
